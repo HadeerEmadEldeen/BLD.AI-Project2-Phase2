@@ -11,9 +11,8 @@ function Home() {
    <Header></Header>
    <BoxOfCards></BoxOfCards>
    <section className='box Allsection'>
-   
-   <SectionDesc></SectionDesc>
-   <ShowCards></ShowCards>
+     <SectionDesc></SectionDesc>
+     <ShowCards></ShowCards>
    </section>
    </>
   )
