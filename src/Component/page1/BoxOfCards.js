@@ -7,7 +7,7 @@ function BoxOfCards(props) {
 
 return(
     <div className="continer">
-      <section>
+      <section className="Allsection">
         <h1>A broad selection of courses</h1>
         <p>
           Choose from 185,000 online video courseswith new additions published

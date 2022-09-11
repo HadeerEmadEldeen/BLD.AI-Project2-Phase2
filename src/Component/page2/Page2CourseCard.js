@@ -28,9 +28,9 @@ function Page2CourseCard(props) {
         <div className="course-cart-data-include">
         <h3>This course includes:</h3>
         <ul>
-          <li><i className="fa-brands fa-youtube"></i><span>21 hours on-demand video</span></li>
-          <li><i className="fa-regular fa-file"></i><span>articles</span></li>
-          <li><i className="fa-solid fa-file-arrow-down"></i><span>4 downloadable resources</span></li>
+          <li><i className="fa-brands fa-youtube"></i><span>{props.course.hoursCount} hours on-demand video</span></li>
+          <li><i className="fa-regular fa-file"></i><span>{props.course.articlesCount} articles</span></li>
+          <li><i className="fa-solid fa-file-arrow-down"></i><span>{props.course.downloadableResource} downloadable resources</span></li>
           <li><i className="fa-solid fa-infinity"></i><span>Full lifetime access</span></li>
           <li><i className="fa-solid fa-mobile-screen"></i><span>Access on mobile and TV</span></li>
           <li><i className="fa-solid fa-trophy"></i><span>Certificate of completion</span></li>
