@@ -1,13 +1,5 @@
-body {
-    font-weight: 400;
-    font-family: sans, sf pro text, -apple-system, BlinkMacSystemFont, Roboto,
-      segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
-      segoe ui symbol;
-    font-size: 1rem;
-  }
-  .footerContiner{
-    position: ;
-  }
+
+ 
   
   
   .Allsection {
@@ -39,6 +31,9 @@ body {
     flex-direction: column;
   
   }
+  .nav-Bar{
+    padding: 15px;
+  }
   .new-cards h4{
     color: gray;
     max-width: 14.5rem;
@@ -65,7 +60,7 @@ body {
     justify-content: space-between;
     align-items: flex-end;
     align-items: center;
-    z-index: 1;
+    z-index: 5;
   }
   
   .nav-Bar button {
@@ -102,16 +97,7 @@ body {
     display: inline-block;
   }
   
-  h1 {
-    margin-top: 40px;
-  }
-  
-  section {
-    margin: 0px 7rem;
-    display: flex;
-    flex-direction: column;
-  }
-  
+
   .box_types {
     padding-bottom: 10px;
   }
@@ -134,12 +120,14 @@ body {
   
   }
   
-  img {
+.logo{
     width: 5rem;
     margin: 0rem;
   }
-  
-  button {
+  .button-lang{
+    background-color: white;
+  }
+  .button-border{
     background-color: white;
     margin: 0.07rem 0.2rem;
     border: 1px solid black;
@@ -148,11 +136,7 @@ body {
     /* //box-sizing: border-box; */
   }
   
-  a h3 {
-    /* background-color: red; */
-    max-width: 14.5rem;
-    display: inline-block;
-  }
+  
   
   article {
     /* max-width: 1rem; */
@@ -166,10 +150,10 @@ body {
     margin: 0;
     padding: 0;
     display: block;
-    text-align: center;
+    list-style: none;
   }
   
-  form {
+  .form-search{
     width: 100%;
     border-radius: 30px;
     text-align: left;
@@ -179,7 +163,7 @@ body {
   
   }
   
-  form button {
+  .form-search button {
     padding: 0;
     margin-left: 0.8rem;
     margin-top: 0.0rem;
@@ -187,7 +171,7 @@ body {
   
   }
   
-  form input {
+  .form-search input {
     width: 80%;
     background: transparent;
   
@@ -370,14 +354,7 @@ body {
     outline: none;
   }
 
-
-  /**/
-  body{
-    font-family: sans-serif,udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,apple color emoji,segoe ui emoji,segoe ui symbol;
-    font-weight: 400;
-    line-height: 1.4;
-    font-size: 1.6rem;
-}
+ 
 /* second navbar */
 .second-navbar{
     background-color: #1c1d1f;
@@ -394,7 +371,7 @@ body {
     box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 16%);
     padding: 1.1rem 1.6rem 0.2rem 1.6rem;
     z-index: 2;
-    height: 80px;
+    height: 90px;
 }
 /* course title */
 .second-navbar h2{
@@ -459,7 +436,7 @@ body {
 }
 /* start course details*/
 .details-continer{
-  
+   
     background-color: #1c1d1f;
     padding-bottom: 1.2rem;
 }
@@ -764,6 +741,7 @@ body {
 }
 .reviews-search-form{
     margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: flex-start;
     height: 45px;
@@ -912,6 +890,7 @@ progress {
   display: block;
   width: 250px;
   margin: 20px;
+  height: 10px;
 
 }
 progress::-webkit-progress-value {
@@ -927,6 +906,7 @@ progress::-webkit-progress-bar {
   font-size: 80px;
   color: #b4690e;
   font-weight: bold;
+  margin-bottom: 10px;
 
 }
 .feedback-summary{
@@ -1160,4 +1140,3 @@ footer{
  
 }
 /* end of footer */
-  

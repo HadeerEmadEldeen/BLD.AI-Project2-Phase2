@@ -1,47 +1,47 @@
 import React from 'react'
 
-function Page2Instractor() {
+function Page2Instractor(props) {
   return (
     <section>
-        <div class="container">
-            <div class="row">
-              <div class="col col-8">
-                <div class="instractor">
+        <div className="container">
+            <div className="row">
+              <div className="col col-8">
+                <div className="instractor">
         
                   <h2>Instructor</h2>
         
                   <div>
         
-                    <a href="#" class="instractor-name">Jose Portilla</a>
+                    <a href="#" className="instractor-name">Jose Portilla</a>
         
-                    <div class="instractor-name-info">Head of Data Science at Pierian Training</div>
+                    <div className="instractor-name-info">Head of Data Science at Pierian Training</div>
         
-                    <div class="instractor-ul">
+                    <div className="instractor-ul">
         
-                      <a href=""><img class="instractor-img" src="https://img-c.udemycdn.com/user/200_H/9685726_67e7_4.jpg" alt="Jose Portilla"/></a>
+                      <a href=""><img className="instractor-img" src="https://img-c.udemycdn.com/user/200_H/9685726_67e7_4.jpg" alt="Jose Portilla"/></a>
         
                       <ul>
                         <li>
-                          <i class="fa-solid fa-star"></i>
+                          <i className="fa-solid fa-star"></i>
                           <div>4.6 Instructor Rating</div>
                         </li>
                         <li>
-                          <i class="fa-solid fa-award"></i>
+                          <i className="fa-solid fa-award"></i>
                           <div>939,702 Reviews</div>
                         </li>
                         <li>
-                          <i class="fa-solid fa-user-group"></i>
+                          <i className="fa-solid fa-user-group"></i>
                           <div>3,010,470 Students</div>
                         </li>
                         <li>
-                          <i class="fa-solid fa-circle-play"></i>
+                          <i className="fa-solid fa-circle-play"></i>
                           <div>54 Courses</div>
                         </li>
                       </ul>
         
                     </div>
         
-                    <div class="instractor-p">
+                    <div className="instractor-p">
         
                       <span>Jose Marcial Portilla has a BS and MS in Mechanical Engineering from Santa Clara University and
                         years of experience as a professional instructor and trainer for Data Science, Machine Learning and

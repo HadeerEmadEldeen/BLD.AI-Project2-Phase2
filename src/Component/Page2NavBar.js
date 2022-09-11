@@ -15,7 +15,7 @@ function Page2NavBar() {
   return (
     <>
      
-    <navbar class="second-navbar">
+    <navbar class="f-navbar">
         <h2>Learning Python for Data Analysis and Visualization</h2>
         <div class="rating-seller">
           <div class="best-seller"><span>Bestseller</span></div>
