@@ -6,7 +6,7 @@ function SectionDesc() {
     <>
        <h2 className="marginrl">Expand your career opportunities with Python</h2>
         <p className="marginrl">
-          Take one of Udemy’s r+,q\\-wp;4d of Python courses and learn how to code
+          Take one of Udemy’s of Python courses and learn how to code
           using this incredibly useful language. Its <br></br> simple syntax and
           readability makes Python perfect for Flask, Django, data science, and
           machine learning. You’ll <br></br> learn how to build everything from games to

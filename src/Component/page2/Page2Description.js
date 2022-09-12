@@ -3,9 +3,7 @@ import React from "react";
 function Page2Description(props) {
   return (
     <section>
-      <div className="container">
-        <div className="row">
-          <div className="col col-8 padleft">
+     
             <h2 className="requirment-header">Description</h2>
             <div className="description-details">
               {props.course.description.map((it) => {
@@ -19,9 +17,7 @@ function Page2Description(props) {
                   return <li>{it}</li>;
                 })}
               </ul>
-            </div>
-          </div>
-        </div>
+          
       </div>
     </section>
   );

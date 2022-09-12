@@ -5,9 +5,7 @@ function Page2CourseContent(props) {
 
   return (
     <section>
-      <div className="container">
-        <div className="row">
-          <div className="col col-8 padleft">
+      
             <h2 className="course-content-title">Course content</h2>
             <div className="course-info">
               <span>
@@ -73,9 +71,7 @@ function Page2CourseContent(props) {
                   );
                 })}
               </div>
-            </div>
-          </div>
-        </div>
+            
       </div>
     </section>
   );

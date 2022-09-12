@@ -3,9 +3,7 @@ import React from "react";
 function Page2StudentFeadback(props) {
   return (
     <section>
-      <div className="container">
-        <div className="row">
-          <div className="col col-8">
+     
             <div>
               <h2>Student feedback</h2>
 
@@ -83,9 +81,7 @@ function Page2StudentFeadback(props) {
                     <span className="fas fa-star-half-alt checked"></span>
                     <a href="#">2%</a>
                   </div>
-                </div>
-              </div>
-            </div>
+             
           </div>
         </div>
       </div>

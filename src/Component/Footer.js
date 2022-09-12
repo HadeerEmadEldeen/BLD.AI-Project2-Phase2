@@ -15,7 +15,7 @@ function Footer() {
       </div>
 
       <div>
-        <img src="https://s.udemycdn.com/partner-logos/v4/nasdaq-light.svg" />
+        <img class = "sm-h-10" src="https://s.udemycdn.com/partner-logos/v4/nasdaq-light.svg" />
         <img src="https://s.udemycdn.com/partner-logos/v4/volkswagen-light.svg" />
         <img src="https://s.udemycdn.com/partner-logos/v4/box-light.svg" />
         <img src="https://s.udemycdn.com/partner-logos/v4/netapp-light.svg" />

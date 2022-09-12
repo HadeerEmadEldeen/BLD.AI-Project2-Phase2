@@ -2,7 +2,7 @@ import React from 'react'
 
 function Page2CourseCard(props) {
   return (
-    <section>
+    <section className='course-card-media'>
     <div className="course-cart">
       <div className="cart-img">
         
@@ -18,10 +18,12 @@ function Page2CourseCard(props) {
           <span className="cart-off">80% off</span>
           <span className="cart-last-price"><i className="fa-regular fa-clock"></i><b>1 day </b>left at this price!</span>
         </div>
+
         <div>
         <button className="add-to-cart">Add to cart</button>
         <button className="buy-now">Buy now</button>
       </div>
+
         <div className="money-back">
         <span>30-Day Money-Back Guarantee</span>
       </div>

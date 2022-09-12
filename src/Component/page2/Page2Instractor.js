@@ -3,9 +3,7 @@ import React from 'react'
 function Page2Instractor(props) {
   return (
     <section>
-        <div className="container">
-            <div className="row">
-              <div className="col col-8">
+        
                 <div className="instractor">
         
                   <h2>Instructor</h2>
@@ -65,9 +63,6 @@ function Page2Instractor(props) {
 
 
 
-                </div>
-              </div>
-            </div>
           </div>
       </section>
   )

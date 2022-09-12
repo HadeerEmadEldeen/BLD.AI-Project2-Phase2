@@ -2,7 +2,8 @@ import React from 'react'
 import { useSearchParams } from 'react-router-dom';
 import { useState } from 'react';
 function Page2Review(props) {
-  const [searchParams, setSearchParams] = useSearchParams("");
+ 
+   const [searchParams, setSearchParams] = useSearchParams("");
     const [review,setReview]=useState("");
     const [reviewstars,setReviewstars]=useState("");
     function reviewsearch(event){
@@ -24,11 +25,9 @@ function Page2Review(props) {
       allreviews= allreviews.filter((c) => c.rate.toLowerCase().includes(filter));
     }
 
-  return (
+   return (
     <section>
-        <div className="container">
-            <div className="row">
-                <div className="col col-8">
+        
                     <h2 className="review-header">Reviews</h2>
                     <form className="reviews-search-form" role="search" onSubmit={reviewsearch}>
                         <input  className="reviews-search-input" type="search" placeholder="Search reviews" aria-label="Search" value={review} onChange={(e) => setReview(e.target.value)} />
@@ -82,12 +81,11 @@ function Page2Review(props) {
                           );
                         })}
                       
-                        </div>
-                </div>
-            </div>
+                  
         </div>
       </section>
-  )
+   )
+ 
 }
 
 export default Page2Review

@@ -6,7 +6,9 @@ function Page2Header(props) {
         <div className="details-continer">
           <div className="container">
             <div className="row padleft">
-              <div className="col col-8">
+              <div className="col col-8 dsplay-media">
+
+
                 <div className="details-menu">
                   <a href="#">Development </a>
                   <span>&nbsp;&gt;&nbsp;</span>
@@ -14,6 +16,11 @@ function Page2Header(props) {
                   <span>&nbsp;&gt;&nbsp;</span>
                   <a href="#"> {props.course.category}</a>
                 </div>
+                
+              <div className="cart-img header-media">
+                <img src={props.course.image} alt="" />
+              </div>
+
 
                 <h1 className="details-header">
                 {props.course.title}
@@ -61,7 +68,20 @@ function Page2Header(props) {
                     </p>
                   </div>
                 </div>
+              <div className="cart-price-data header-media">
+                <span className="cart-price">E£{props.course.price}</span>
               </div>
+              <button className="add-to-cart header-media">Add to cart</button>
+              <div className="money-back header-media">
+                <span>30-Day Money-Back Guarantee</span>
+              </div>
+              <span className='header-media money-back'>Full lifetime access</span>
+              <div className="share-gift-coupon header-media header-media-link">
+                <button><a href="">share</a></button>
+                <button><a href="">Gift this course</a></button>
+                <button><a href="">Apply coupon</a></button>
+              </div>
+            </div>
             </div>
           </div>
         </div>

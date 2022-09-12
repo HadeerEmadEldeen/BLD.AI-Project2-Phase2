@@ -70,10 +70,13 @@
   .signup {
     background-color: black;
     color: white;
+    height: 2rem;
   }
+  
   .marginrl {
     margin-right: 3rem;
     margin-left: 3rem;
+    margin-top: 1.5rem;
   }
   
   
@@ -126,6 +129,8 @@
   }
   .button-lang{
     background-color: white;
+    height: 2rem;
+    
   }
   .button-border{
     background-color: white;
@@ -298,14 +303,16 @@
     }
   
     .logo {
-      margin-left: 10rem;
-      margin-right: 80px;
-  
+     
+      position: relative;
+      left: 10%;
     }
   
     .menu-icon {
       display: block;
       background-color: white;
+      margin-left: 10%;
+      margin-right: 70%;
     }
   
     .test {
@@ -364,7 +371,7 @@
     color: white;
     width: 100%;
     left: 0;
-    top: 0;    
+    top: 0;
     position: fixed;
     transform: translateY(0);
     transition-property: transform;
@@ -373,8 +380,8 @@
     transition-delay: 0s;
     box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 16%);
     padding: 1.1rem 1.6rem 0.2rem 1.6rem;
-    z-index: 2;
-    height: 90px;
+    z-index: 1;
+    line-height: 1.4rem;
 }
 /* course title */
 .second-navbar h2{
@@ -442,6 +449,7 @@
    
     background-color: #1c1d1f;
     padding-bottom: 1.2rem;
+    margin-top: -15px;
 }
 .details-menu{ 
       display: flex;
@@ -497,9 +505,7 @@
     font-size: 0.8rem;
 
   }
-  .padleft{
-    margin-left: 1%;
-}
+ 
   .details-more div span,.details-more div p{
      color: white;
   }
@@ -533,6 +539,8 @@
     letter-spacing: -.02rem;
     font-size: 1rem;
     line-height: 50px;
+    justify-content: space-between;
+    
 }
 .third-navbar .container .row a:hover{
     color: black;
@@ -936,28 +944,23 @@ progress::-webkit-progress-bar {
 }
 /* end of feedback  */
 /* start of course cart */
+
 .course-cart{
-  width: 400px;
+  width: 350px;
   background-color: white;
   font-size: 1rem;
   color: black;
   border: #1c1d1f 1px solid;
-  margin: 50px;
-  z-index: 1;
+  z-index: 2;
   position: absolute;
-  top: 80px;
-  right: 0;
+  top: 100px;
+  right: 5%;
 }
-.cart-img{
-  width: 100%;
-}
+
 .cart-img img{
   width: 100%;
 }
-.cart-container{
-  margin: 20px;
-  
-}
+
 .cart-price{
   color: #1c1d1f;
   font-size: 2rem;
@@ -980,7 +983,7 @@ progress::-webkit-progress-bar {
   margin-bottom: 12px;
 }
 .add-to-cart{
-  width: 90%;
+  width: 100%;
   height: 3rem;
   margin-top: 2%;
   background-color: #8710d8;
@@ -991,13 +994,14 @@ progress::-webkit-progress-bar {
   color: white;
 }
 .buy-now{
-  width: 90%;
+  width: 100%;
   height: 3rem;
   margin-top: 2%;
   background-color: transparent;
   border: 1px solid #1c1d1f;
   font-size: 1rem;
   font-weight: 700;
+  margin-bottom: 15px;
 }
 .money-back{
   font-size: 0.8rem;
@@ -1005,9 +1009,7 @@ progress::-webkit-progress-bar {
   margin: 20px 0;
   text-align: center;
 }
-.money-back span{
-  margin-left: -20px;
-}
+
 .course-cart-data-include h3{
   font-size: 1rem;
   font-weight:bold;
@@ -1030,7 +1032,7 @@ progress::-webkit-progress-bar {
 .share-gift-coupon a{
   text-decoration: none;
   color: black;
-  font-size: 0.9rem;
+  font-size: 12px;
   font-weight: bold;
   padding-bottom: 2px;
   border-bottom: #1c1d1f 1px solid;
@@ -1045,6 +1047,9 @@ progress::-webkit-progress-bar {
   background: transparent;
   outline: none;
   border: none;
+}
+.cart-container{
+  width: 90%;
 }
 .cart-container h4{
   font-size: 1.2rem;
@@ -1065,23 +1070,23 @@ footer{
   padding: 0 40px;
   font-size: 0.9rem;
 }
-
 .footer-secsion1{
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap; 
-    height: 90px;
     margin-bottom: 40px;
     border-color: white;
     font-size: 0.9rem;
-    
 }
 .footer-line{
   margin: -25px -35px 30px -35px;
 }
+
 .footer-secsion1 img{
-  margin: 5px;
+  padding: 1px;
+  height: 45px;
 }
 .footer-secsion1-div1{
   font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
@@ -1097,11 +1102,10 @@ footer{
 .footer-secsion2{
   display: flex;
   height: 200px;
-
- 
+  justify-content: space-between;
 }
 .footer-secsion2 ul{
-  flex-basis: 25.6rem;
+    
     margin-right: 1.6rem;
     margin-bottom: 0;
     list-style: none;
@@ -1143,3 +1147,58 @@ footer{
  
 }
 /* end of footer */
+
+
+.header-media{
+  display: none;
+}
+
+@media screen and (max-width: 1112px) {
+
+.course-card-media{
+  display: none;
+}
+.dsplay-media{
+  width: 100%;
+}
+.header-media{
+  display: block;
+  color: white;
+}
+.header-media span {
+  color: white;
+}
+.header-media a {
+  justify-content: space-between;
+  display: flex;
+  color: white;
+}
+
+.header-media-link{
+  margin-top: 50px;
+  margin-left: 70px;
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  text-decoration: underline;
+}
+.second-navbar{
+  bottom: 0;
+  top: unset;
+}
+}
+@media screen and (max-width: 1160px) {
+  .business-media{
+    display: none;
+  }
+  
+}
+@media screen and (max-width: 950px) {
+  .teach-media{
+    display: none;
+  }
+}
+.nav-bar3-media{
+  width: 25%;
+  display: inline-block;
+}

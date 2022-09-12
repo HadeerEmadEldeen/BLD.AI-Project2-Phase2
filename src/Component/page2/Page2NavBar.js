@@ -16,7 +16,7 @@ function Page2NavBar(props) {
  
   return (
     <>
-    <navbar className="second-navbar">
+    <navbar className="second-navbar col-lg-bot-0 ">
         <h2>{props.course.title}</h2>
         <div className="rating-seller">
           <div className="best-seller"><span>Bestseller</span></div>

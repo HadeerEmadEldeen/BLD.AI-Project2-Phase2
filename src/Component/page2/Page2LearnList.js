@@ -2,9 +2,8 @@ import React from "react";
 
 function Page2LearnList(props) {
   return (
-    <div className="container ">
-      <div className="row padleft">
-        <div className="col col-8 what-learn">
+   
+        <div class ="what-learn">
           <h2 className="learn-list-header test">What you'll learn</h2>
 
           <ul>
@@ -21,8 +20,7 @@ function Page2LearnList(props) {
               );
             })}
           </ul>
-        </div>
-      </div>
+        
     </div>
   );
 }
