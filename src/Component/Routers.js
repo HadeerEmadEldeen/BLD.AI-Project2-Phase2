@@ -1,7 +1,6 @@
 import React from 'react'
 import {Routes , Route} from 'react-router-dom';
 import Home from './Home';
-import ElemntOfNav from './ElemntOfNav';
 import Page2 from './page2/Page2';
 function Routers() {
   return (

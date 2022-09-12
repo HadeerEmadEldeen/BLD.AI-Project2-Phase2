@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Style.css';
 
-function SectionDesc() {
+function SectionDesc(props) {
   return (
     <>
        <h2 className="marginrl">Expand your career opportunities with Python</h2>

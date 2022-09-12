@@ -7,14 +7,14 @@ function Page2CourseContent(props) {
   let classs = "";
   let total = "";
   function showmore() {
-    let z = document.getElementsByClassName("showmore");
+    let corseContestId = document.getElementsByClassName("showmore");
     if (btnstate == false) {
-      for (let i = 0; i < z.length; i++) {
-        z[i].style.display = "block";
+      for (let i = 0; i < corseContestId.length; i++) {
+        corseContestId[i].style.display = "block";
       }
     } else {
-      for (let i = 0; i < z.length; i++) {
-        z[i].style.display = "none";
+      for (let i = 0; i < corseContestId.length; i++) {
+        corseContestId[i].style.display = "none";
       }
     }
     setBtnstate(!btnstate);
