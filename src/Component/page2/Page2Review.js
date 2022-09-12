@@ -15,6 +15,10 @@ function Page2Review(props) {
       }
       let allreviews=props.course.reviews;
     if(searchParams.get("review")){
+      setReview(
+        {
+          review: review.toLowerCase()
+        });
       let filter=searchParams.get("review")
       filter.toLowerCase();
       allreviews= allreviews.filter((c) => c.content.toLowerCase().includes(filter));

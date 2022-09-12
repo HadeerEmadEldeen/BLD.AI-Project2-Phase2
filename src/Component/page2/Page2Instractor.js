@@ -1,8 +1,9 @@
 import React from 'react'
-
+import { useState } from 'react';
 function Page2Instractor(props) {
+  const [showMore,setShowMore]=useState(false);
   return (
-    <section>
+    <section id="instructor">
         
                 <div className="instractor">
         
@@ -41,14 +42,11 @@ function Page2Instractor(props) {
                       </div>
           
                       <div className="instractor-p">
-          
-                        <span>{it.description}
-                        </span>
+                        {showMore?it.description:`${it.description.substring(0,500)}`}
                         
-                        <button>
+                        <button className='more-content' onClick={()=>setShowMore(!showMore)}>
                           <span>
-                            <span>Show more</span>
-                            <span>Show less</span>
+                            {showMore? "show less":"show more"}
                           </span>
                         </button>
           
@@ -63,7 +61,8 @@ function Page2Instractor(props) {
 
 
 
-          </div>
+                </div>
+              
       </section>
   )
 }

@@ -1,6 +1,20 @@
 import React from 'react'
 
 function Page2Header(props) {
+  let butt=""
+  let langs=""
+  function seemore(){
+    let z=document.getElementById("header-more-data")
+    z.style.display="block";
+    z=document.getElementById("header-more-btn")
+    z.style.display="none";
+  }
+  if(props.course.caption_languages.length>2){
+    butt=(<button className="more-btn" id="header-more-btn" onClick={seemore}>
+    <span>see more</span>
+  </button>);
+    langs=<p className='seemore' id="header-more-data">{props.course.caption_languages}</p>;
+  }
   return (
     <>
         <div className="details-continer">
@@ -49,7 +63,7 @@ function Page2Header(props) {
 
                 <div className="details-more">
                   <div className="last-up">
-                    <i className="fa-duotone fa-bell-exclamation"></i>
+                  <i class="fa-solid fa-circle-exclamation"></i> 
                     <span className="last-updated">Last updated {props.course.lastUpdate}</span>
 
                     <i className="fa-solid fa-globe"></i>
@@ -58,14 +72,9 @@ function Page2Header(props) {
 
                   <div>
                     <i className="fa-regular fa-closed-captioning"></i>
-                    <span>English [Auto], Indonesian [Auto] ,</span>
-                    <button className="more-btn">
-                      <span>5 more</span>
-                    </button>
-                    <p>
-                      [Auto], Polish [Auto], Portuguese [Auto], Romanian [Auto],
-                      Spanish [Auto]
-                    </p>
+                    <span>{props.course.caption_languages[0]}</span>
+                    {butt}
+                    {langs}
                   </div>
                 </div>
               <div className="cart-price-data header-media">
