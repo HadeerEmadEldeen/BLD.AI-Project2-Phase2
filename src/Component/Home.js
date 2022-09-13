@@ -14,7 +14,6 @@ function Home() {
    <section className='box Allsection'>
      <SectionDesc></SectionDesc>
      <ShowCards></ShowCards>
-    
    </section>
    <Category></Category>
    
