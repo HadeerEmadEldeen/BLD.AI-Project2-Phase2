@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "http//HadeerEmadEldeen.github.io/BLD.AI-Project2-Phase2/precache-manifest.6ad6039ac32d8b05309c17bdf8d55cf8.js"
+  "http//HadeerEmadEldeen.github.io/BLD.AI-Project2-Phase2/precache-manifest.7c1adef19e9e3520c41bcfdd1c9aed23.js"
 );
 
 workbox.clientsClaim();
