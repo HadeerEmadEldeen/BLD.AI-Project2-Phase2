@@ -16,7 +16,7 @@ import { useParams } from "react-router-dom";
 import Home from "../Home";
 function Page2(props) {
   {
-    let courses = useContext(CoursesContext);
+    let { courses } = useContext(CoursesContext);
     let {id} = useParams();
     let flag = 0;
     let selectedCourse;

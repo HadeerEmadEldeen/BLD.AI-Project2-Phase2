@@ -8,16 +8,17 @@ function FatchData() {
     const [data,setData]=useState(null);
     const [loading,setLoading]=useState(true);
     const [error,setError]=useState(null);
-    useEffect(()=>{
-        fetch('http://localhost:3001/courses')
+    useEffect(() => {
+        fetch('https://api.jsonbin.io/v3/b/6321ce675c146d63ca9b2134')
             .then(response => {
+                
                 if(response.ok){
                     return response.json();
                 }
                 throw response;
             })
             .then(data=>{
-                setData(data);
+                setData(data.record);
             })
             .catch(error=>{
                 console.error("error fetching data",error);

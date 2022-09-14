@@ -5,7 +5,7 @@ import { useContext } from "react";
 import CoursesContext from "../CoursesContext";
 import { useSearchParams } from "react-router-dom";
 const ShowCards = () => {
-  let courses = useContext(CoursesContext);
+  let { courses } = useContext(CoursesContext);
   const [searchParams, setSearchParams] = useSearchParams();
   let resultCourses = courses;
   if (searchParams.get("searchvalue")) {

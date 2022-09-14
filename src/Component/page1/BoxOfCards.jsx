@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import React from 'react'
-import CardShape from '../page1/CardShape'
+import CardShape from './CardShape'
 import "../Style.css"
 
 function BoxOfCards(props) {
