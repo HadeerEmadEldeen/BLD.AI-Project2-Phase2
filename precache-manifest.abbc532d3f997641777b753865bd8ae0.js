@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "01794f8d5ea9ab03c4d6",
-    "url": "http//HadeerEmadEldeen.github.io/BLD.AI-Project2-Phase2/static/css/main.42a0e326.chunk.css"
+    "revision": "cba48b417f725bafe858",
+    "url": "http//HadeerEmadEldeen.github.io/BLD.AI-Project2-Phase2/static/css/main.98ebf99a.chunk.css"
   },
   {
-    "revision": "01794f8d5ea9ab03c4d6",
-    "url": "http//HadeerEmadEldeen.github.io/BLD.AI-Project2-Phase2/static/js/main.71a8b326.chunk.js"
+    "revision": "cba48b417f725bafe858",
+    "url": "http//HadeerEmadEldeen.github.io/BLD.AI-Project2-Phase2/static/js/main.d7dbce85.chunk.js"
   },
   {
     "revision": "950415ed1a7b08f5ab1d",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "http//HadeerEmadEldeen.github.io/BLD.AI-Project2-Phase2/static/media/logo.06e73328.svg"
   },
   {
-    "revision": "540f2f86ef052c8869e35f5eaa2d4c3c",
+    "revision": "88717d428d88a4c8de963b5b43804ed0",
     "url": "http//HadeerEmadEldeen.github.io/BLD.AI-Project2-Phase2/index.html"
   }
 ];
